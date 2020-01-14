@@ -1,0 +1,165 @@
+$dark: rgb(255, 251, 251);
+$sidebar: rgb(21, 31, 76);
+$sidebartext: white;
+body {
+  background-image: url('../images/background.jpg');
+  background-repeat: no-repeat;
+  background-color: rgba(133, 133, 133, 0.973);
+  background-position: right;
+  background-attachment: fixed;
+  margin: 0;
+}
+.fototop {
+  margin-bottom: 1em;
+}
+.fotovanmij {
+  max-width: 35%;
+  margin-top: 5%;
+  border: 10px solid black;
+  border-radius: 10px;
+  -webkit-box-shadow: 17px 14px 38px 17px rgba(0, 0, 0, 0.74);
+  -moz-box-shadow: 17px 14px 38px 17px rgba(0, 0, 0, 0.74);
+  box-shadow: 17px 14px 38px 17px rgba(0, 0, 0, 0.74);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  background-color: $sidebar;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+.indextekst {
+  font-family: 'Baloo Bhai', cursive;
+  margin-top: 0.5em;
+  font-size: 5vw;
+}
+
+li a {
+  display: block;
+  color: $sidebartext;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: white;
+  color: black;
+  font-weight: bolder;
+  font-size: 15px;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba($sidebar, 0.7);
+  color: white;
+  text-align: center;
+  display: absolute;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(131, 113, 236);
+  color: white;
+  font-weight: normal;
+}
+
+.page {
+  background: rgba($dark, 0.7);
+  margin-left: 15%;
+  padding: 1em 2em;
+  height: 2000px;
+}
+#logo {
+  text-align: right;
+}
+.top {
+  margin-top: 2em;
+}
+.Comingsoon {
+  margin-top: 3em;
+  max-width: 100%;
+}
+i {
+  padding: 15px;
+}
+.contact {
+  margin-top: 1em;
+}
+#mijzelf {
+  text-align: center;
+}
+.laptop {
+  max-width: 35%;
+  position: absolute;
+  left: 50%;
+  margin-left: -15%;
+}
+#accordion {
+  margin-top: 2em;
+}
+.titelinfo {
+  margin-top: 1em;
+}
+.note {
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  color: black;
+  font-family: 'Baloo Bhai', cursive;
+  font-weight: bold;
+  font-size: 2.2em;
+}
+.note2 {
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  color: black;
+  font-family: 'Baloo Bhai', cursive;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+@media only screen and (max-width: 720px) {
+  ul {
+    width: 25%;
+  }
+  .indexdisplay {
+    font-size: 2em;
+  }
+  .page {
+    margin-left: 25%;
+  }
+  .Comingsoon {
+    margin-top: 1em;
+    max-width: 100%;
+  }
+  .top {
+    margin-top: 1em;
+  }
+  .contact {
+    margin-top: 1em;
+    font-size: 2em;
+  }
+  .profiel {
+    border: 1vw solid black;
+    border-radius: 10px;
+    max-width: 40vw;
+  }
+  .laptop {
+    max-width: 60%;
+  }
+  .fotovanmij {
+    max-width: 100%;
+  }
+  .fototop {
+    font-size: 5vh;
+  }
+}
+@media only screen and (min-width: 2300px) {
+  ul {
+    width: 25%;
+  }
+  .page {
+    margin-left: 25%;
+  }
+}
