@@ -1,0 +1,26 @@
+- Language Reference => Basic syntax => PHP tags
+hier leer je veel over verschillende PHP tags die je kan gebruiken
+
+- Language Reference => Booleans, Integers, Floating point numbers, Strings, Arrays
+hier leer je over de verschillende variablen die je kan gebruiken in PHP
+
+- Language Reference => Expressions
+hier leer je over de verschillende expressions die je kan gebruiken in php
+
+- Language Reference => Controle structures => elseif / else if, foreach, break, continue, switch
+hier leer je over de verschillende control stuctures die je kan gebruiken
+
+- Language Reference => User-defined functions,  function arguments, returning value, variable function, 
+hier leer je over de verschillende manieren om waardes te updaten en te gebruiken
+
+- Funtion Reference => Date and Time Related Extentsions => Date/Time functions => date_sunset
+hier leer je om gebruik te maken van de PHP tijd en datum functies
+
+- Funtion Reference => Date and Time Related Extentsions => Calendar functions => cal_days_in_month
+hier leer je te werken met de calender en bijv het aantal dagen in de maand
+
+- Funtion Reference => File System Related Extensions => Filesystem => chmod, copy, delete, dirname, disk_free_space, dissk_total_space, fopen, fclose, filesize
+hier leer je over het schijven en uitlezezvan bestanden in PHP
+
+- Funtion Reference => Mail Related Extensions => Mail
+hier leer je van alles over de PHP mail service
